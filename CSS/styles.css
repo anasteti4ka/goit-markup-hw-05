@@ -190,7 +190,7 @@ p {
 
 .title {
   background: #2f303a;
-  background-image: radial-gradient(circle at center, #2F303A40, #2F303A40), url(../img/titlebackimg.jpg);
+  background-image: linear-gradient( to right, #2F303A40, #2F303A40), url(../img/titlebackimg.jpg);
   background-size: cover;
   height: 600px;
 }
@@ -238,7 +238,11 @@ p {
 }
 
 .content-box-about {
-  width: calc(100% / 3 - 30px); 
+  width: calc(100% / 3 - 30px);
+}
+
+.text-wwd {
+
 }
 
 .section {
