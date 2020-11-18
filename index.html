@@ -49,7 +49,7 @@
                 для вашего бизнеса
             </h1>
             <div class="hero-button">
-            <button class="title-button" type="button" >Заказать услугу</button>
+            <button class="title-button" type="button" data-modal-open>Заказать услугу</button>
             </div>
         </div>
         </section>
@@ -349,11 +349,15 @@
             </div>
             </div>
         </footer>
-    <script src="./js/model.js"></script>
-    <div class="backdrop is-hidden">
+    <div class="backdrop is-hidden" data-modal>
         <div class="module">
-            <button></button>
+            <button class="exit-icon-link" data-modal-close>
+                <svg class="exit-icon-svg">
+                    <use href="./img/icons/sprite.svg.svg#exit"></use>
+                </svg>
+            </button>
         </div>
     </div>  
+<script src="./js/model.js"></script>
 </body>
 </html>
